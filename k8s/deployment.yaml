@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: asifpsdocker/static-website:1
+        image: asifpsdocker/static-website:2
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
